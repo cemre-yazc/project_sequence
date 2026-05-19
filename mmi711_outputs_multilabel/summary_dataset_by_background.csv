@@ -1,5 +1,5 @@
 dataset,cubic_trend,linear,linear+multiple_seasonality,linear+single_seasonality,multiple_seasonality,multiple_seasonality+linear,none,quadratic_trend,quadratic_trend+single_seasonality,single_seasonality,single_seasonality+linear,volatility_background,volatility_background+linear
-ood_background,112,0,161,0,115,89,0,0,113,0,0,65,65
-ood_params,0,223,0,137,0,0,104,99,0,98,59,0,0
-train,0,675,0,538,0,0,360,302,0,337,188,0,0
-val,0,222,0,144,0,0,109,101,0,93,51,0,0
+ood_background,147,0,275,0,126,103,0,0,153,0,0,74,82
+ood_params,0,278,0,213,0,0,110,129,0,144,86,0,0
+train,0,1405,0,1072,0,0,672,623,0,673,355,0,0
+val,0,279,0,205,0,0,126,141,0,133,76,0,0

@@ -87,9 +87,9 @@
             ]
         ]
     },
-    "n_train_per_scenario_per_length": 50,
-    "n_val_per_scenario_per_length": 15,
-    "n_test_per_scenario_per_length": 15,
+    "n_train_per_scenario_per_length": 100,
+    "n_val_per_scenario_per_length": 20,
+    "n_test_per_scenario_per_length": 20,
     "description": {
         "target_format": "Multi-label binary vector. no_event is represented by all-zero target vector.",
         "train": "In-distribution training set with none/linear backgrounds.",

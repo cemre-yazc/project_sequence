@@ -1,5 +1,5 @@
 dataset,400,800,1200
-ood_background,240,240,240
-ood_params,240,240,240
-train,800,800,800
-val,240,240,240
+ood_background,320,320,320
+ood_params,320,320,320
+train,1600,1600,1600
+val,320,320,320

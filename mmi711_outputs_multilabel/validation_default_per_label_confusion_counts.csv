@@ -1,6 +1,6 @@
 label,tn,fp,fn,tp
-mean_shift,444,51,73,152
-variance_shift,433,62,46,179
-trend_shift,457,38,102,123
-point_anomaly,410,85,72,153
-collective_anomaly,475,20,64,161
+mean_shift,619,41,106,194
+variance_shift,653,7,99,201
+trend_shift,598,62,138,162
+point_anomaly,586,74,92,208
+collective_anomaly,648,12,70,230

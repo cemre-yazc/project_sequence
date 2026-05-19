@@ -1,6 +1,0 @@
-label,tn,fp,fn,tp
-mean_shift,426,69,98,127
-variance_shift,415,80,113,112
-trend_shift,432,63,143,82
-point_anomaly,399,96,119,106
-collective_anomaly,478,17,15,210
