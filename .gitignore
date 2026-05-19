@@ -1,0 +1,21 @@
+@"
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+datasets/
+data/
+runs/
+wandb/
+checkpoints/
+models/
+outputs/
+
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.zip
+"@ | Out-File -Encoding utf8 .gitignore

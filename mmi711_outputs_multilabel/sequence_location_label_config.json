@@ -1,0 +1,21 @@
+{
+    "label_format": "sequence_level_location_labels",
+    "event_labels": [
+        "mean_shift",
+        "variance_shift",
+        "trend_shift",
+        "point_anomaly",
+        "collective_anomaly"
+    ],
+    "shift_label_meaning": {
+        "0": "before any shift of this type",
+        "1": "after first shift of this type",
+        "2": "after second shift of this type",
+        "3": "after third shift of this type"
+    },
+    "anomaly_label_meaning": {
+        "0": "normal point for this anomaly type",
+        "1": "point belongs to anomaly"
+    },
+    "shape": "Each Yloc array has shape (num_samples, sequence_length, num_event_labels)."
+}

@@ -1,0 +1,100 @@
+{
+    "dataset_type": "multi_label_variable_length",
+    "lengths": [
+        400,
+        800,
+        1200
+    ],
+    "event_labels": [
+        "mean_shift",
+        "variance_shift",
+        "trend_shift",
+        "point_anomaly",
+        "collective_anomaly"
+    ],
+    "event_to_id": {
+        "mean_shift": 0,
+        "variance_shift": 1,
+        "trend_shift": 2,
+        "point_anomaly": 3,
+        "collective_anomaly": 4
+    },
+    "scenario_groups": {
+        "no_event": [
+            []
+        ],
+        "single_event": [
+            [
+                "mean_shift"
+            ],
+            [
+                "variance_shift"
+            ],
+            [
+                "trend_shift"
+            ],
+            [
+                "point_anomaly"
+            ],
+            [
+                "collective_anomaly"
+            ]
+        ],
+        "anomaly_anomaly": [
+            [
+                "point_anomaly",
+                "collective_anomaly"
+            ]
+        ],
+        "shift_shift": [
+            [
+                "mean_shift",
+                "variance_shift"
+            ],
+            [
+                "mean_shift",
+                "trend_shift"
+            ],
+            [
+                "variance_shift",
+                "trend_shift"
+            ]
+        ],
+        "shift_anomaly": [
+            [
+                "mean_shift",
+                "point_anomaly"
+            ],
+            [
+                "mean_shift",
+                "collective_anomaly"
+            ],
+            [
+                "variance_shift",
+                "point_anomaly"
+            ],
+            [
+                "variance_shift",
+                "collective_anomaly"
+            ],
+            [
+                "trend_shift",
+                "point_anomaly"
+            ],
+            [
+                "trend_shift",
+                "collective_anomaly"
+            ]
+        ]
+    },
+    "n_train_per_scenario_per_length": 50,
+    "n_val_per_scenario_per_length": 15,
+    "n_test_per_scenario_per_length": 15,
+    "description": {
+        "target_format": "Multi-label binary vector. no_event is represented by all-zero target vector.",
+        "train": "In-distribution training set with none/linear backgrounds.",
+        "val": "In-distribution validation set with none/linear backgrounds.",
+        "ood_params": "OOD test set with shifted event parameters.",
+        "ood_background": "OOD test set with harder seasonal or linear-seasonal backgrounds."
+    }
+}

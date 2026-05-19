@@ -1,0 +1,5 @@
+dataset,anomaly_anomaly,no_event,shift_anomaly,shift_shift,single_event
+ood_background,45,45,270,135,225
+ood_params,45,45,270,135,225
+train,150,150,900,450,750
+val,45,45,270,135,225
